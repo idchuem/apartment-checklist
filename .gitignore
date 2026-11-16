@@ -1,0 +1,15 @@
+profile.local.md
+reviewed-notices.local.md
+
+# Keep the notice workflow folders, but leave all notice documents local.
+/notices/*
+!/notices/.gitkeep
+!/notices/incoming/
+!/notices/ai-reviewed/
+!/notices/confirmed/
+/notices/incoming/*
+/notices/ai-reviewed/*
+/notices/confirmed/*
+!/notices/incoming/.gitkeep
+!/notices/ai-reviewed/.gitkeep
+!/notices/confirmed/.gitkeep
